@@ -20,15 +20,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 .nav:focus-visible{outline:2px solid #9ec85a;outline-offset:2px;opacity:1;pointer-events:auto}
 @media (hover:none){.nav{opacity:.5;pointer-events:auto}}
 .bar{display:block}
-.tabs{display:flex;flex-wrap:nowrap;align-items:center;gap:clamp(4px,1.1vw,12px);padding:0 2px 8px}
-.t{position:relative;border:0;background:transparent;padding:3px 0 7px;font:inherit;font-size:clamp(10px,3.4vw,12.5px);letter-spacing:-.01em;color:#6a8074;cursor:pointer;white-space:nowrap;transition:color .16s;flex:none}
+.tabs{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;padding:0 2px 8px}
+.t{position:relative;border:0;background:transparent;padding:3px 0 7px;font:inherit;font-size:12.5px;color:#6a8074;cursor:pointer;white-space:nowrap;transition:color .16s;flex:none}
 .t:hover{color:#17453c}
 .t.on{color:#123f34;font-weight:600}
 .t.on::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;border-radius:2px;background:linear-gradient(90deg,#17453c,#9ec85a)}
 .t:focus-visible{outline:2px solid #9ec85a;outline-offset:2px}
 
 
-.t{position:relative;border:0;background:transparent;padding:3px 0 7px;font:inherit;font-size:clamp(10px,3.4vw,12.5px);letter-spacing:-.01em;color:#6a8074;
+.t{position:relative;border:0;background:transparent;padding:3px 0 7px;font:inherit;font-size:12.5px;color:#6a8074;
  cursor:pointer;white-space:nowrap;transition:color .16s}
 .t:hover{color:#17453c}
 .t.on{color:#123f34;font-weight:600}
